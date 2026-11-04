@@ -1,0 +1,67 @@
+body {
+            font-family: Arial, sans-serif;
+            background-color: white;
+        }
+
+        .contenedor {
+            width: 600px;
+            margin: 30px auto;
+            padding: 15px;
+            background-color: #eee;
+            border: 1px solid black;
+        }
+
+        h2 {
+            margin-top: 0;
+        }
+
+        hr {
+            margin-bottom: 20px;
+        }
+
+        input {
+            width: 75%;
+            padding: 8px;
+        }
+
+        button {
+            padding: 8px;
+            cursor: pointer;
+        }
+
+        .agregar {
+            background-color: #198754;
+            color: white;
+            border: none;
+        }
+
+        .contenido {
+            display: flex;
+            margin-top: 20px;
+            gap: 30px;
+        }
+
+        .resumen {
+            width: 50%;
+        }
+
+        .lista {
+            width: 50%;
+        }
+
+        .tarea {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 8px;
+        }
+
+        .realizada {
+            text-decoration: line-through;
+            color: gray;
+        }
+
+        .eliminar {
+            color: red;
+            border: none;
+        }
